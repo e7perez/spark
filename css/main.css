@@ -1,0 +1,14 @@
+@import 'reset.css';
+@import 'landing.css';
+@import 'top-footer.css';
+@import 'projects.css';
+@import 'partners.css';
+@import 'lets-work.css';
+@import 'locations.css';
+@import 'footer.css';
+@import 'help.css';
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}

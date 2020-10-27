@@ -1,0 +1,29 @@
+footer {
+    height: 600px;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-info ul{
+    display: inline-block;
+    margin: 50px;
+}
+.footer-info ul li h1 {
+    font-size: 100px;
+    font-weight: 900;
+    font-style: italic;
+    margin: 30px 0px;
+}
+.footer-info ul li h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin: 30px 0px;
+}
+.footer-info ul li#icon{
+    display: inline-block;
+    font-size:70px;
+    margin: 30px;
+}

@@ -1,0 +1,53 @@
+.locations-container {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.location {
+    height: 900px;
+    width: 600px;
+    /* background: red; */
+    margin: 10px;
+    position: relative;
+}
+.nyc-img, .sf-img, .mia-img {
+    position: absolute;
+    width: 100%;
+    height: 75%;
+}
+.location h1{
+    position: absolute;
+    font-size: 150px;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 30%;
+}
+.nyc-img {
+    background-image: url('/img/NYC.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.sf-img {
+    background-image: url('/img/SF.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.mia-img {
+    background-image: url('/img/MIA.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.location ul {
+    position: absolute;
+    bottom: 0;
+}
+.location ul li {
+    margin: 20px 0px;
+}

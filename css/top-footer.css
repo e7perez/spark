@@ -1,0 +1,28 @@
+.info {
+    height: 250px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.info h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    align-self: center;
+    margin: 20px;
+}
+.info ul {
+    align-self: center;
+    margin: 20px;
+}
+.info ul li h1 {
+    font-size: 50px;
+    font-weight: 100;
+}
+.info ul li p {
+    font-size: 25px;
+}
+.info ul li p span{
+    color: #F8F32B;
+}
