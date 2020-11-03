@@ -26,3 +26,16 @@
 .info ul li p span{
     color: #F8F32B;
 }
+
+@media (max-width: 1824px) and (min-width: 1251px) {} 
+@media (max-width: 1250px) and (min-width: 993px) {} 
+@media (max-width: 992px) and (min-width: 768px) {} 
+@media only screen and (max-width: 767px) {
+    .info ul li h1 {
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .info ul li p {
+        font-size: 20px;
+    }
+}

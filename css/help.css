@@ -72,3 +72,159 @@
     width: 60%;
     top: 0;
 }
+@media (max-width: 1824px) and (min-width: 1251px) {
+    .need-help h1 {
+        font-size: 120px;
+        top: 80px;
+        left: 90px;
+    }
+    .need-help .accent {
+        top: 55px;
+    }
+    .idea-info h1 {
+        margin: 130px 0px 0px 100px;
+    }
+    .idea-info p {
+        font-size: 25px;
+    }
+    .idea img {
+        height: 100%;
+    }
+} 
+@media (max-width: 1250px) and (min-width: 993px) {
+    .need-help h1 {
+        font-size: 100px;
+        top: 100px;
+        left: 50px;
+    }
+    .need-help .accent {
+        width: 200px;
+        height: 20px;
+        background: #F8F32B;
+        position: absolute;
+        left: 55px;
+        top: 80px;
+    }
+    .idea {
+        width: 100%;
+    }
+    .idea img {
+        display: none;
+    }
+    .idea-info {
+        text-align: center;
+    }
+    .idea-info h1 {
+        margin: 100px 0px 0px 0px;
+    }
+    .idea-info p {
+        margin: 10px 30px;
+        font-size: 45px;
+        font-weight: 300;
+    }
+    .idea-info h1 br{
+        display: none;
+    }
+    .idea-info p br{
+        display: none;
+    }
+    .idea-info a {
+        float: none;
+        border: 3px solid white;
+        margin: 0px;
+    }
+    .idea-info h2 {
+        margin: 40px 100px;
+    }
+} 
+@media (max-width: 992px) and (min-width: 768px) {
+    .need-help h1 {
+        font-size: 100px;
+        top: 100px;
+        left: 50px;
+    }
+    .need-help .accent {
+        width: 200px;
+        height: 20px;
+        background: #F8F32B;
+        position: absolute;
+        left: 55px;
+        top: 80px;
+    }
+    .idea {
+        width: 100%;
+    }
+    .idea img {
+        display: none;
+    }
+    .idea-info {
+        text-align: center;
+    }
+    .idea-info h1 {
+        margin: 100px 0px 0px 0px;
+    }
+    .idea-info p {
+        margin: 10px 30px;
+        font-size: 45px;
+        font-weight: 300;
+    }
+    .idea-info h1 br{
+        display: none;
+    }
+    .idea-info p br{
+        display: none;
+    }
+    .idea-info a {
+        float: none;
+        border: 3px solid white;
+        margin: 0px;
+    }
+    .idea-info h2 {
+        margin: 40px 100px;
+    }
+} 
+@media only screen and (max-width: 767px) {
+    .need-help h1 {
+        font-size: 80px;
+        top: 120px;
+        left: 20px;
+    }
+    .need-help .accent {
+        width: 200px;
+        height: 20px;
+        background: #F8F32B;
+        position: absolute;
+        left: 25px;
+        top: 90px;
+    }
+    .idea {
+        width: 100%;
+    }
+    .idea img {
+        display: none;
+    }
+    .idea-info {
+        text-align: center;
+    }
+    .idea-info h1 {
+        margin: 100px 0px 0px 0px;
+    }
+    .idea-info p {
+        margin: 10px 0px 0px 0px;
+        font-weight: 300;
+    }
+    .idea-info h1 br{
+        display: none;
+    }
+    .idea-info p br{
+        display: none;
+    }
+    .idea-info a {
+        float: none;
+        border: 3px solid white;
+        margin: 0px;
+    }
+    .idea-info h2 {
+        margin: 40px 100px;
+    }
+}

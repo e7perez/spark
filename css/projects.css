@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     align-content: center;
     height: 100vh;
-    width: 1400px;
+    width: 100%;
     margin: 0 auto;
 }
 .project {
@@ -45,4 +45,76 @@
 }
 .project .hover:hover {
     opacity: .5;
+}
+@media (min-width: 1907px){
+    .projects-container {
+        width: 1400px;
+    }
+}
+@media (max-width: 1824px) and (min-width: 1251px) {
+    .projects-container {
+        height: 100vh;
+        align-content: center;
+        align-items: center;
+    }
+    .project {
+        
+    }
+    .project img {
+        height: 100%;
+    }
+    .hover {
+        display: none;
+    }
+} 
+
+
+@media (max-width: 1250px) and (min-width: 993px) {
+    .projects-container {
+        height: 2500px;
+        align-content: center;
+        align-items: center;
+    }
+    .project {
+        
+    }
+    .project img {
+        height: 100%;
+    }
+    .hover {
+        display: none;
+    }
+} 
+@media (max-width: 992px) and (min-width: 768px) {
+    .projects-container {
+        height: 2500px;
+        align-content: center;
+        align-items: center;
+    }
+    .project {
+        
+    }
+    .project img {
+        height: 100%;
+    }
+    .hover {
+        display: none;
+    }
+} 
+@media only screen and (max-width: 767px) {
+    .projects-container {
+        height: 2500px;
+        align-content: flex-start;
+    }
+    .project {
+        width: 100%;
+        
+    }
+    .project img {
+        width: 100%;
+        height: 100%;
+    }
+    .hover {
+        display: none;
+    }
 }

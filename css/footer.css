@@ -27,3 +27,18 @@ footer {
     font-size:70px;
     margin: 30px;
 }
+
+@media (max-width: 1824px) and (min-width: 1251px) {} 
+@media (max-width: 1250px) and (min-width: 993px) {} 
+@media (max-width: 992px) and (min-width: 768px) {
+    .footer-info ul {
+        display: inline-block;
+        margin: 20px;
+    }
+
+} 
+@media only screen and (max-width: 767px) {
+    footer {
+        height: 1250px;
+    }
+}
