@@ -46,9 +46,16 @@
 .project .hover:hover {
     opacity: .5;
 }
+@media (min-width: 2500px){
+    .projects-container {
+        width: 1400px;
+        padding: 0px !important;
+    }
+}
 @media (min-width: 1907px){
     .projects-container {
         width: 1400px;
+        padding: 100px;
     }
 }
 @media (max-width: 1824px) and (min-width: 1251px) {
