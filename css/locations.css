@@ -30,17 +30,17 @@
     top: 30%;
 }
 .nyc-img {
-    background-image: url('/img/NYC.jpg');
+    background-image: url('../img/NYC.jpg');
     background-position: center;
     background-size: cover;
 }
 .sf-img {
-    background-image: url('/img/SF.jpg');
+    background-image: url('../img/SF.jpg');
     background-position: center;
     background-size: cover;
 }
 .mia-img {
-    background-image: url('/img/MIA.jpg');
+    background-image: url('../img/MIA.jpg');
     background-position: center;
     background-size: cover;
 }
